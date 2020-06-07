@@ -18,6 +18,7 @@
 		63DB2708248C7925001B9825 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2704248C7925001B9825 /* Menu.swift */; };
 		63DB2709248C7925001B9825 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2705248C7925001B9825 /* Helper.swift */; };
 		63DB270C248C8219001B9825 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB270B248C8219001B9825 /* ItemRow.swift */; };
+		63DB270E248C8FE5001B9825 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB270D248C8FE5001B9825 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		63DB2705248C7925001B9825 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		63DB270A248C7A31001B9825 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		63DB270B248C8219001B9825 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		63DB270D248C8FE5001B9825 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				63DB26F0248C789E001B9825 /* SceneDelegate.swift */,
 				63DB26F2248C789E001B9825 /* ContentView.swift */,
 				63DB270B248C8219001B9825 /* ItemRow.swift */,
+				63DB270D248C8FE5001B9825 /* ItemDetail.swift */,
 				63DB2705248C7925001B9825 /* Helper.swift */,
 				63DB2702248C7924001B9825 /* menu.json */,
 				63DB2704248C7925001B9825 /* Menu.swift */,
@@ -169,6 +172,7 @@
 				63DB2707248C7925001B9825 /* Order.swift in Sources */,
 				63DB270C248C8219001B9825 /* ItemRow.swift in Sources */,
 				63DB26F3248C789E001B9825 /* ContentView.swift in Sources */,
+				63DB270E248C8FE5001B9825 /* ItemDetail.swift in Sources */,
 				63DB2708248C7925001B9825 /* Menu.swift in Sources */,
 				63DB2709248C7925001B9825 /* Helper.swift in Sources */,
 			);
