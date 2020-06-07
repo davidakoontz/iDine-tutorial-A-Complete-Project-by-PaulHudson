@@ -22,7 +22,10 @@ struct ItemDetail: View {
                     .foregroundColor(.white)
                     .offset(x: -5, y: -5)
             }
-            Text(item.description).padding()
+            
+            Text(item.description)
+                .padding()
+            
             Spacer()
         }.navigationBarTitle(Text(item.name), displayMode: .inline)
     }
