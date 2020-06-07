@@ -32,6 +32,7 @@
 		63DB2703248C7924001B9825 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		63DB2704248C7925001B9825 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		63DB2705248C7925001B9825 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		63DB270A248C7A31001B9825 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		63DB26E2248C789E001B9825 = {
 			isa = PBXGroup;
 			children = (
+				63DB270A248C7A31001B9825 /* README.md */,
 				63DB26ED248C789E001B9825 /* iDine */,
 				63DB26EC248C789E001B9825 /* Products */,
 			);
