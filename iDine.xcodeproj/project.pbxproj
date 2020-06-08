@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63517F70248D6DEF004F7DFF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63517F6F248D6DEF004F7DFF /* OrderView.swift */; };
+		63517F72248D708D004F7DFF /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63517F71248D708D004F7DFF /* AppView.swift */; };
 		63DB26EF248C789E001B9825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB26EE248C789E001B9825 /* AppDelegate.swift */; };
 		63DB26F1248C789E001B9825 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB26F0248C789E001B9825 /* SceneDelegate.swift */; };
 		63DB26F3248C789E001B9825 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB26F2248C789E001B9825 /* ContentView.swift */; };
@@ -19,9 +21,12 @@
 		63DB2709248C7925001B9825 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB2705248C7925001B9825 /* Helper.swift */; };
 		63DB270C248C8219001B9825 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB270B248C8219001B9825 /* ItemRow.swift */; };
 		63DB270E248C8FE5001B9825 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB270D248C8FE5001B9825 /* ItemDetail.swift */; };
+		63F5DB16248D8B61006A2296 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F5DB15248D8B61006A2296 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63517F6F248D6DEF004F7DFF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		63517F71248D708D004F7DFF /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		63DB26EB248C789E001B9825 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DB26EE248C789E001B9825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DB26F0248C789E001B9825 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +42,7 @@
 		63DB270A248C7A31001B9825 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		63DB270B248C8219001B9825 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		63DB270D248C8FE5001B9825 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		63F5DB15248D8B61006A2296 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +76,14 @@
 		63DB26ED248C789E001B9825 /* iDine */ = {
 			isa = PBXGroup;
 			children = (
+				63517F71248D708D004F7DFF /* AppView.swift */,
+				63F5DB15248D8B61006A2296 /* CheckoutView.swift */,
 				63DB26EE248C789E001B9825 /* AppDelegate.swift */,
 				63DB26F0248C789E001B9825 /* SceneDelegate.swift */,
 				63DB26F2248C789E001B9825 /* ContentView.swift */,
 				63DB270B248C8219001B9825 /* ItemRow.swift */,
 				63DB270D248C8FE5001B9825 /* ItemDetail.swift */,
+				63517F6F248D6DEF004F7DFF /* OrderView.swift */,
 				63DB2705248C7925001B9825 /* Helper.swift */,
 				63DB2702248C7924001B9825 /* menu.json */,
 				63DB2704248C7925001B9825 /* Menu.swift */,
@@ -168,12 +177,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				63DB26EF248C789E001B9825 /* AppDelegate.swift in Sources */,
+				63F5DB16248D8B61006A2296 /* CheckoutView.swift in Sources */,
 				63DB26F1248C789E001B9825 /* SceneDelegate.swift in Sources */,
 				63DB2707248C7925001B9825 /* Order.swift in Sources */,
 				63DB270C248C8219001B9825 /* ItemRow.swift in Sources */,
 				63DB26F3248C789E001B9825 /* ContentView.swift in Sources */,
 				63DB270E248C8FE5001B9825 /* ItemDetail.swift in Sources */,
+				63517F70248D6DEF004F7DFF /* OrderView.swift in Sources */,
 				63DB2708248C7925001B9825 /* Menu.swift in Sources */,
+				63517F72248D708D004F7DFF /* AppView.swift in Sources */,
 				63DB2709248C7925001B9825 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
